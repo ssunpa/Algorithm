@@ -1,0 +1,13 @@
+arr = list()
+arr.append(int(input()))
+arr.append(int(input()))
+arr.append(int(input()))
+arr.append(int(input()))
+arr.append(int(input()))
+arr.append(int(input()))
+arr.append(int(input()))
+arr.append(int(input()))
+arr.append(int(input()))
+
+maximum = max(arr)
+print(maximum, arr.index(maximum)+1)
