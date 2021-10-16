@@ -2,6 +2,6 @@ a, b = input().split()
 ans = a[::-1] > b[::-1]
 
 if(ans):
-    print(a)
+    print(a[::-1])
 else:
-    print(b)
+    print(b[::-1])
